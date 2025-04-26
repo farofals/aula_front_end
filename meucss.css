@@ -1,0 +1,32 @@
+p {
+    background-color: blueviolet;
+    color: bisque;
+    border: 2px solid black;
+}
+
+h1{
+    color: red;
+    border: 1px solid black;
+}
+
+.corParagrafoX{
+    background-color: cadetblue;
+}
+
+.corParagrafoY{
+    background-color: rgb(175, 60, 204);
+}
+h1{
+    color: brown;
+    border: 3px solid black
+}
+
+.removeBorda{
+    color: red;
+    border: none;
+    background-color: white;
+}
+
+#idObjeto{
+    border: 20px solid red ;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Exemplo JavaScript 01</title>
+<script>
+    function dataHora(){
+        document.getElementById('demo').innerHTML = Date();
+    }
+
+    function msg(id, msg){
+        document.getElementById(id).innerHTML = msg;
+    }
+    
+</script>
+<!--<script src="script-01.js"></script>-->
+
+<body>
+
+<h2>Primeiros passos JavaScript 01</h2>
+
+<button type="button"
+    onclick="dataHora()">
+Clique para mostrar Data e hora.
+</button>
+
+<br><br>
+
+<button type="button"
+    onclick="msg('demo02', 'Meu texto!!!')">
+Clique para mostrar uma mensagem
+</button>
+
+<p id="demo"></p>
+<p id="demo02"></p>
+
+</body>
+</html> 

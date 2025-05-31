@@ -1,2 +1,2 @@
-# aula_front_end
-Atividades de desenvolvimento de frontend, eu sou o fabricio e lalalalalalalala 
+# aulas_curso_frontend
+Arquivos relacionados a disciplina de frontend ministrada na UCB.
